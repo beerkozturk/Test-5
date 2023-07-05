@@ -1,0 +1,36 @@
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .day:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .day.izinli {
+    background-color: #aaffaa;
+  }
+  
+  .day.red {
+    background-color: #ffaaaa;
+  }
+  
+  .selected-day {
+    background-color: #00aaff;
+    color: white;
+  }
